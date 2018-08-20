@@ -1,10 +1,10 @@
-﻿spring: 
+spring: 
   profiles: 
     active: 
     - dev
 
 ---
-server
+server: 
   port: 8201
 
 spring: 
@@ -18,7 +18,7 @@ eureka:
       defaultZone: http://eureka-dev.com:7001/eureka/
 
 ---
-server
+server: 
   port: 8202
 
 spring: 
@@ -32,5 +32,4 @@ eureka:
       defaultZone: http://eureka-test.com:7001/eureka/
 
 
-### 请保存为 UTF-8 格式
 ### 请保存为 UTF-8 格式
